@@ -1,10 +1,10 @@
 import "./App.css";
-import Graph from "./components/graph";
+import ToggleGraph from "./components/toggleGraph";
 
 function App() {
   return (
     <div className="App">
-      <Graph />
+      <ToggleGraph />
     </div>
   );
 }

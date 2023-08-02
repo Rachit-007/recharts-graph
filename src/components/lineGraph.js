@@ -89,7 +89,7 @@ const data = [
  *
  * @returns A chart using that has a refrence line and a higlighted refrence area using the rechart library
  */
-const Graph = () => {
+const LineGraph = () => {
   const targetWeight = 75;
 
   return (
@@ -128,4 +128,4 @@ const Graph = () => {
   );
 };
 
-export default Graph;
+export default LineGraph;
